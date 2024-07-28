@@ -17,7 +17,7 @@ nav{
 }
 .box{
     display: flex;
-    padding: 26px 0px;
+    padding: 14px 0px;
     align-items: center;
 }
 /* navber logo */
@@ -75,7 +75,7 @@ baner style section
     background-repeat: no-repeat;
 }
 .banner .box2{
-    padding: 210px 0px;
+    padding: 186px 0px;
     flex-direction: column;
 }
 /* banner title */
@@ -139,12 +139,15 @@ baner style section
     display: flex;
     gap: 18px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-.box_img{
+/* .box_img{
     width: 24.2%; 
-    border: 5px solid black;
     overflow: hidden;  
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
+ .gellry_sec img{
+    width: 430px;
+ }
