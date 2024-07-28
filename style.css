@@ -141,13 +141,6 @@ baner style section
     flex-wrap: wrap;
     justify-content: space-around;
 }
-/* .box_img{
-    width: 24.2%; 
-    overflow: hidden;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
  .gellry_sec img{
     width: 430px;
  }
