@@ -69,6 +69,7 @@ nav{
 baner style section
 ------------ */
 .banner{
+    width: 100%;
     background-image: url(./image/banner.png);
     background-position: center;
     background-size: cover;
@@ -108,24 +109,24 @@ baner style section
 -----about section styles------
 ------------ 
  */
-.about_sec .box_about{
+.welcome_sec .box_about{
     padding: 89px 0px;
 }
 /* about left */
-.about_left{
+.welcome_left{
     width: 45%;
 }
-.about_left h2{
+.welcome_left h2{
     font-weight: 700;
     font-size: 44px;
     width: 289px;
     line-height: 72px;
 }
 /* about right */
-.about_right{
+.welcome_right{
     width: 65%;
 }
-.about_right p{
+.welcome_right p{
     font-size: 18px;
     font-weight: 500px;
     line-height: 24px;
@@ -153,4 +154,254 @@ baner style section
 .box_img img{
     width: 100%;
     height: 100%;   
+}
+/* 
+---------------
+service section style -------
+-------------
+*/
+.service-main{
+    padding-top: 26px;
+}
+/* ---------------ser fs part------------- */
+.service-fs-div{
+    display: flex;
+}
+/* ser-fs left style */
+.ser-fs-left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser-fs-left-box{
+    width: 509px;
+}
+.ser-fs-left h2{
+    font-weight: 700;
+    font-size: 64px;
+    color: black;
+}
+/* ser fs right style */
+.ser-fs-right{
+    width: 50%;
+    background: url(./image/service1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 76px 37px;
+}
+.ser-fs-right h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.ser-fs-right p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/*
+-----sec section two part 
+ */
+ .ser-ss-div h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+ }
+.ser-ss-left{
+    width: 50%;
+    background: url(./image/service2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 76px 37px;
+}
+.ser-ss-right{
+    width: 50%;
+    background: url(./image/service3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 76px 37px;
+}
+/* 
+------about section style----------
+*/
+.about-main{
+    padding: 78px 0px;
+    background-color: #ebe5e5;
+}
+.about-fs-div{
+    width: 35%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-fs-div h2{
+    width: 262px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffff;
+    padding: 28px 0px;
+}
+.about-ss-div{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./image/about.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 76px 37px;
+}
+/* 
+---------
+------comapany style css open----
+-------
+*/
+.company_logo{
+    background-color: #fffafa;
+    padding: 35px 0px;
+}
+.company_box{
+    justify-content: space-between;
+    align-items: center;
+}
+/* 
+----------------
+--------blog section------
+---------------
+*/
+.blog-main{
+    background-color: #ebe5e5;
+    padding: 90px 0px;
+}
+.blog-box{
+    gap: 70px;
+}
+.blog-main h4{
+    width: 248px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000000;
+    padding-bottom: 28px;
+}
+.blog-box-1{
+    background: url(./image/blog3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 58px 44px;
+    opacity: 90%;
+    
+}
+.blog-box-2{
+    background: url(./image/blog2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 58px 44px;
+    opacity: 90%;
+}
+.blog-box-3{
+    background: url(./image/blog1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 58px 44px;
+    opacity: 90%;
+}
+.blog-more{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: right;
+    color: #000000;
+    line-height: 24px;
+    padding-top: 20px;
+}
+/* 
+---------
+------map section style---
+-----------
+*/
+.map-main img{
+    width: 100%;
+}
+/* 
+---------
+------contact section style---
+-----------
+*/
+.contact-main{
+    background-color: red;
+    padding: 36px 0px;
+}
+.contact-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-box h2{
+    color: #ffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* 
+----------------
+--------footer section-----
+-------
+*/
+.footer-main{
+    background-color: #000000;
+    color: #ebe5e5;
+    padding: 98px 0px;
+}
+.footer-main ul{
+    list-style: none;
+}
+.footer-main .box{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-main ul li{
+    line-height: 38px;
+    padding-top: 12px;
+}
+/* footer box 1 */
+.footer-box-1 li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* footer box 4 */
+.footer-box-4 h2{
+   padding: 20px 0px;
+}
+/* -----footer last part------ */
+.footer-last{
+    background-color: #282828;
+    padding: 24px 0px;
+}
+.footer-last p{
+    color: #6C6C6C;
+    font-size: 16px;
 }
